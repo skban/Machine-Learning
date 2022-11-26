@@ -9,6 +9,6 @@ def LGGSet(d):
     instances_left = instances_len -1
     while j<instances_left:
         j = j+1
-        x = possible_instances[j]
+        x = instances[j]
         h = LGGConj(h,x)
     return h

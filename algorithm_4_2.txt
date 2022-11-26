@@ -1,0 +1,4 @@
+Input : conjunctions x, y.
+Output : conjunction z.
+   z ←conjunction of all literals common to x and y;
+   return z

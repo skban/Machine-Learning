@@ -1,0 +1,3 @@
+x {'Teeth=many', 'Length=3', 'Beak=yes', 'Gills=no'}
+y {'Teeth=many', 'Beak=yes', 'Length=4', 'Gills=no'}
+LGGConj(x, y): {'Teeth=many', 'Beak=yes', 'Gills=no'}

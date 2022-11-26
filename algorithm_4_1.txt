@@ -1,0 +1,9 @@
+Input : data D.
+Output : logical expression H.
+   x ←first instance from D;
+   H ←x;
+   while instances left do
+      x ←next instance from D;
+      H ←LGG(H,x) ; // e.g., LGG-Conj (Alg. 4.2) or LGG-Conj-ID (Alg. 4.3)
+   end
+   return H
